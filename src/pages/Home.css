@@ -1,0 +1,65 @@
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+  background-color: #441a5f; /* Same as navbar color */
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.hero-text {
+  flex: 1;
+  color: white;
+}
+
+.greeting {
+  font-size: 1.2rem;
+  color: #f3e6ff;
+}
+
+.name {
+  font-size: 2.5rem;
+  color: #ffffff;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.download-btn {
+  background-color: #ffffff;
+  color: #6a1b9a;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #e0d0ff;
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image img {
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
